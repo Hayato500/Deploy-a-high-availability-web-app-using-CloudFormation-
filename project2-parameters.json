@@ -1,0 +1,42 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "UdacityProject"
+	},
+	{
+		"ParameterKey": "InstanceAMI",
+		"ParameterValue": "ami-08c40ec9ead489470"
+	},
+	{
+		"ParameterKey": "InstanceSpecs",
+		"ParameterValue": "t2.micro"
+	},
+	{
+		"ParameterKey": "InstanceEbs",
+		"ParameterValue": "10"
+	},
+	{
+		"ParameterKey": "AutoScalingMinimumInstances",
+		"ParameterValue": "2"
+	},
+	{
+		"ParameterKey": "AutoScalingMaximumInstances",
+		"ParameterValue": "2"
+	},
+	{
+		"ParameterKey": "KeyPair",
+		"ParameterValue": "project2private"
+	},
+	{
+		"ParameterKey": "DevIP",
+		"ParameterValue": "41.237.239.254/32"
+	},
+	{
+		"ParameterKey": "JumpBoxKeyPair",
+		"ParameterValue": "project2key"
+	},
+	{
+		"ParameterKey": "JumpBoxAMI",
+		"ParameterValue": "ami-026b57f3c383c2eec"
+	}
+]
